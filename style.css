@@ -1,0 +1,127 @@
+body {
+    background-image: url("images/what-the-hex.png");
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+}
+
+#navbarText {
+    padding: 0px;
+}
+
+.nav-link {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+li.nav-item {
+    border-right: 1px solid #dddddd;
+}
+
+li.nav-item.active {
+    border-right: 1px solid #dddddd;
+}
+
+li.nav-item:last-child {
+    border-right: 1px solid #ffffff;
+}
+
+li.nav-item.active:last-child {
+    border-right: 1px solid #ffffff;
+}
+
+nav.navbar.bg-white.p-0 {
+    border-bottom: 1px solid #dddddd; 
+}
+
+.container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.jumbotron {
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    border: 2px solid #dddddd; 
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background-color: #666666;
+    color: #ffffff;
+    border-top: solid 8px #4aaaa5;
+    font-size: 14px;
+}
+
+.footerText {
+    margin-top: 10px;
+}
+
+.display-4 {
+    font-size: 1.75rem;
+    color: #4aaaa5;
+}
+
+/* CONTACT CSS */
+
+figcaption.figure-caption.text-center {
+    margin-top: -50px;
+    padding: 5px;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+input.btn.btn-primary {
+    background-color: #4aaaa5;
+    border: #dddddd;
+}
+
+
+/* PORTFOLIO CSS */
+
+.container.portfolioContainer {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image.portfolioImage {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay.portfolioOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4aaaa5;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container.portfolioContainer:hover .overlay.portfolioOverlay {
+    height: 10%;
+  }
+  
+  .text.portfolioText {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
